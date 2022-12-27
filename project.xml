@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<meta title="Galaxy BreakOut" version="1.0.0" company="Hicham BAYANAT" />
+	<app main="Main" path="Export" file="Starling" />
+
+	<window width="630" height="500" fps="60" />
+
+	<source path="Source" />
+
+	<haxelib name="openfl" />
+	<haxelib name="starling" />
+
+
+	<assets path="Assets" rename="assets" />
+
+</project>

@@ -1,0 +1,41 @@
+<project>
+  <output>
+    <movie path="project.xml"/>
+    <movie platform="Lime"/>
+    <movie version="1"/>
+    <movie width="800"/>
+    <movie fps="30"/>
+    <movie disabled="False"/>
+    <movie height="600"/>
+    <movie input=""/>
+    <movie background="#FFFFFF"/>
+  </output>
+  <classpaths>
+    <class path="Source"/>
+  </classpaths>
+  <build>
+    <option additional=""/>
+    <option directives=""/>
+    <option enabledebug="False"/>
+    <option flashStrict="False"/>
+    <option mainClass=""/>
+    <option noInlineOnDebug="False"/>
+  </build>
+  <haxelib/>
+  <compileTargets></compileTargets>
+  <hiddenPaths>
+    <hidden path="obj"/>
+  </hiddenPaths>
+  <preBuildCommand>"$(CompilerPath)/haxelib" run lime build "$(OutputFile)" $(TargetBuild) -$(BuildConfig) -Dfdb</preBuildCommand>
+  <postBuildCommand alwaysRun="False"/>
+  <options>
+    <option showHiddenPaths="False"/>
+    <option testMovieCommand=""/>
+    <option testMovie="Custom"/>
+  </options>
+  <moonshineRunCustomization>
+    <option targetPlatform="neko"/>
+    <option webBrowser=""/>
+  </moonshineRunCustomization>
+  <storage/>
+</project>
